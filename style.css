@@ -1,0 +1,45 @@
+        body {
+            font-family: "Comic Relief", system-ui;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            height: 70vh;
+            color: white;
+            background-color: #383737;
+        }
+        td {
+            width: 25%;
+            text-align: center;
+            background-color: rgb(65, 68, 68);
+            font-size: 24px;
+        }
+
+        td:hover {
+            background-color: rgb(82, 78, 78);
+            cursor: pointer;
+        }
+
+        #resultArea {
+            height: 30vh;
+            background-color: rgb(83, 83, 83);
+            color: white;
+            font-size: 64px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 24px;
+            box-sizing: border-box;
+        }
+        
+        #result {
+            background-color: rgb(89, 80, 214);
+        }
+
+        #result:hover {
+            background-color: rgb(123, 117, 214);
+        }
+
+        .highlight {
+            background-color: rgb(95, 92, 92);
+        }
